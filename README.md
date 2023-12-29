@@ -121,10 +121,10 @@ py调用的`impacket-0.11.0`
 
 第四步：选择请求方式，然后点击`获取接口状态`即可
 
-![](images\js-3.png)
+![](images/js-3.png)
 
 结果
 
-![](images\js-4.png)
+![](images/js-4.png)
 
 有建议和需求可提 ISSUE 
