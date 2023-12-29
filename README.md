@@ -80,11 +80,11 @@ JS接口
 
 第一步：先配置各种API
 
-![](images\seeting.png)
+![](images/seeting.png)
 
 第二步：选择一个空间测绘
 
-![](images\poc-1.png)
+![](images/poc-1.png)
 
 第三步：选择自己的脚本，检测即可
 
@@ -97,7 +97,7 @@ JS接口
    3、代理需要自己加到py里面
 
 
-![](images\poc-2.png)
+![](images/poc-2.png)
 
 
 
