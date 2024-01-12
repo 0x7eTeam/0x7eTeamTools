@@ -3,7 +3,16 @@
 # 0x7eTeamTools
 
 
-后续还会更新，师傅们可以 star 下 ，祝师傅们 龙年大吉
+## 更新记录
+
+0x7eTeamTools V1.1
+         2024年1月12日
+            
+            1、修复了反弹shell命令生成功能bug
+            2、修复了某些页面鼠标滚轮功能bug
+            3、新增了js接口的一些处理逻辑
+              3.1针对型如../xx.js、./xx.js、//xx.js等js爬取做了修复
+              3.2针对型如../func、./func、/func等接口处理做了修复
 
 
 ![](./images/index_PAGE.png)
