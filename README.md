@@ -2,10 +2,29 @@
 
 # 0x7eTeamTools
 
+  <p align="center">
+    <br />
+          <br />
+<a href="https://github.com/0x7eTeam/0x7eTeamTools/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/0x7eTeam/0x7eTeamTools"/></a>
+<a href="https://github.com/0x7eTeam/0x7eTeamTools/releases"><img alt="GitHub releases" src="https://img.shields.io/github/release/0x7eTeam/0x7eTeamTools"/></a>
+<a href="https://github.com/0x7eTeam/0x7eTeamTools/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
+<a href="https://github.com/0x7eTeam/0x7eTeamTools/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/0x7eTeam/0x7eTeamTools/total?color=brightgreen"/></a>
+<br>
+<br>
+    <br />
+    <a href="https://github.com/0x7eTeam/0x7eTeamTools/releases">下载程序</a>
+    ·
+    <a href="https://github.com/0x7eTeam/0x7eTeamTools/issues">反馈Bug|提交需求</a>
 
+  </p>
 ## 更新记录
 
 0x7eTeamTools V1.1
+		
+         2024年1月17日
+		 
+			开源
+			
          2024年1月12日
             
             1、修复了反弹shell命令生成功能bug
