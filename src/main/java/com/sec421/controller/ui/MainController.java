@@ -605,10 +605,10 @@ public class MainController  {
                     URL myurl = new URL(jsurl);
                     String mypath = myurl.getPath();
                     String fileName = mypath.substring(mypath.lastIndexOf('/') + 1);
-                    domain = jsurl.replace(fileName,"");
-                    url = domain + interface_url;
+                    String new_domain = jsurl.replace(fileName,"");
+                    String new_url = new_domain + interface_url;
                     try {
-                        url = Tools.normalizedURI(url);
+                        url = Tools.normalizedURI(new_url);
                     } catch (URISyntaxException e) {
                         continue;
                     }
