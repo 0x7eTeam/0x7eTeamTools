@@ -17,7 +17,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fxml/gui.fxml"));
-        primaryStage.setTitle("0x7eTeamTools v1.1 By 陆泽");
+        primaryStage.setTitle("0x7eTeamTools v1.2 By 陆泽");
 //        primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root));
         primaryStage.getIcons().add(new Image(getClass().getClassLoader().getResource("img/logo_2256.gif").toString()));
