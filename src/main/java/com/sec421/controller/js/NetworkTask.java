@@ -23,10 +23,11 @@ public class NetworkTask extends Task<String> {
         int status = httpResponse.getStatus();
         String content_length = httpResponse.contentLength() == -1 ? "无效" : String.valueOf(httpResponse.contentLength());
         String body = httpResponse.body();
+        String contentType = httpResponse.header("Content-Type");
         if (body.length() > 500) {
             body = "长度过长，请自行处理";
         }
-        if (status!=404) {
+        if (status!=404 || (contentType !=null && !contentType.equals("text/html"))) {
             String result = "------------------------------------\n" +
                     "[出货]   ---   " + url + "\n" +
                     "状态码: " + String.valueOf(status) + "\n" +
